@@ -6,10 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
     <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/menu-hamburguer.css">
+    <link rel="stylesheet" href="./src/styles/global.css">
 </head>
 
 <body>
-    
+    <header class="header">
+        <!-- <div class="header-container"> -->
+        <a class="logo" href="/">
+            <h1>IMC</h1>
+        </a>
+
+        <nav>
+            <input type="checkbox" id="menu-hambuguer" />
+
+            <label for="menu-hambuguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contatct</a></li>
+            </ul>
+        </nav>
+        <!-- </div> -->
+    </header>
+
     <div class="container">
         <div class="first-step">
             <p>Clique no botão para calcular o seu IMC</p>

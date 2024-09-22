@@ -4,6 +4,7 @@ body{
     background: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 143));
     text-align: center;
     color: #fff;
+    min-height: 100vh;
 }
 
 .dev{
