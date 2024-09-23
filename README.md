@@ -1,7 +1,7 @@
 ###### Autor: IAN SANTOS
 # PROJETO IMC Residência
 
-### Este site tem como intenção informar o Índice de Massa Corporal (IMC) so usuário.
+### Este site tem como intenção informar o Índice de Massa Corporal (IMC) do usuário.
 
 ### Linguagens Utilizadas
 * HTML
