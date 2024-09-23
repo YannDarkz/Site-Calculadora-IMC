@@ -1,11 +1,17 @@
 .header {
     display: flex;
-    margin: 30px;
-    border: 1px solid;
+    padding: 10px 5px;
+    /* border: 1px solid; */
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+    margin-bottom: 7vh;
+    
 }
 
 .header .logo {
-    font-size: 2rem;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
 
 }
 
@@ -14,17 +20,18 @@
 }
 
 .header nav ul li a {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 10px 10px;
     border-radius: 50px;
     transition: 0.3s;
+    color: #000;
 
 }
 
 .header nav ul li a:hover {
     color: #fff;
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 /* RESPONSIVE */
@@ -123,5 +130,9 @@
         text-align: center;
         padding: 20px;
 
+    }
+
+    .header nav ul li a:hover {
+        background-color:  rgb(177, 81, 81);
     }
 }
