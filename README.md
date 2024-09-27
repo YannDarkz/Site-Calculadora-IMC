@@ -14,7 +14,7 @@
 - Passo 2
     - Insira o peso ex : 70
     - Insira a altura ex : 1.70 ou 1,70
-        - obs: É preciso acrescentar o ponto ou virgula para o sistema de calcula funcionar corretamente.
+        - obs: É preciso acrescentar o ponto ou virgula para o sistema de calcular IMC funcionar corretamente como esperado.
 
 ### Links Footer
 -  Link Repositórios Github
